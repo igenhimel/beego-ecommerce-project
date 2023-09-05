@@ -96,7 +96,7 @@ func (c *UserController) LoginPost() {
     c.SetSession("SuccessMessage", "Login successful!")
 
     // Redirect to the dashboard page upon successful login
-    c.Redirect("/dashboard", 302)
+    c.Redirect("/product-list", 302)
 }
 
 
